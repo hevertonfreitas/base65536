@@ -6,13 +6,12 @@ use PHPUnit_Framework_TestCase;
 
 class Base65536Test extends PHPUnit_Framework_TestCase
 {
-
-    private $strings = array(
+    private $strings = [
         'test',
         'php',
         'base65536',
-        'lorem ipsum dolor sit amet'
-    );
+        'lorem ipsum dolor sit amet',
+    ];
 
     public function testEncode()
     {
