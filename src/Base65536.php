@@ -621,7 +621,7 @@ class Base65536
             if (array_key_exists($codePoint - $b1, self::$getB2)) {
                 $b2 = self::$getB2[$codePoint - $b1];
             } else {
-                throw new Exception('Not a valid Base65536 code point: ' + unichr($codePoint));
+                throw new Exception('Not a valid Base65536 code point: ' + self::unichr($codePoint));
             }
             if ($b2 == -1) {
                 $result[] = self::unichr($b1);
