@@ -9,7 +9,7 @@
 
 PHP implementation of the [base65536](https://github.com/ferno/base65536) algorithm.
 
-## Instalation
+## Installation
 
 ```bash
 composer require hevertonfreitas/base65536
