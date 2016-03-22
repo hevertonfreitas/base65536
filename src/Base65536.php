@@ -533,11 +533,10 @@ class Base65536
      * @param $val int
      * @return string
      */
-    private function unichr($val)
+    private static function unichr($val)
     {
         return mb_convert_encoding('&#' . intval($val) . ';', 'UTF-8', 'HTML-ENTITIES');
     }
-
 
     /**
      * Unicode ord()
@@ -545,7 +544,7 @@ class Base65536
      * @param $string
      * @return bool|int
      */
-    private function uniord($string)
+    private static function uniord($string)
     {
         if (ord($string{0}) >= 0 && ord($string{0}) <= 127)
             return ord($string{0});
