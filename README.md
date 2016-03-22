@@ -1,5 +1,12 @@
 # Base65536
 
+[![Build Status](https://travis-ci.org/hevertonfreitas/base65536.svg?branch=master)](https://travis-ci.org/hevertonfreitas/base65536)
+[![Latest Stable Version](https://poser.pugx.org/hevertonfreitas/base65536/v/stable)](https://packagist.org/packages/hevertonfreitas/base65536)
+[![Total Downloads](https://poser.pugx.org/hevertonfreitas/base65536/downloads)](https://packagist.org/packages/hevertonfreitas/base65536)
+[![Latest Unstable Version](https://poser.pugx.org/hevertonfreitas/base65536/v/unstable)](https://packagist.org/packages/hevertonfreitas/base65536)
+[![StyleCI](https://styleci.io/repos/54432774/shield)](https://styleci.io/repos/54432774)
+[![License](https://poser.pugx.org/hevertonfreitas/base65536/license)](http://opensource.org/licenses/MIT)
+
 PHP implementation of the [base65536](https://github.com/ferno/base65536) algorithm.
 
 ## Instalation
