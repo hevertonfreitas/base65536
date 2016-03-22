@@ -18,9 +18,13 @@ composer require hevertonfreitas/base65536
 ## Usage
 
 ```php
-$encodedString = \Hevertonfreitas\Base65536::encode('hello world'); // Output: 驨ꍬ啯𒁷ꍲᕤ
+require 'vendor/autoload.php';
 
-$decodedString = \Hevertonfreitas\Base65536::decode($encodedString); // Output: hello world 
+use \Hevertonfreitas\Base65536\Base65536;
+
+$encodedString = Base65536::encode('hello world'); // Output: 驨ꍬ啯𒁷ꍲᕤ
+
+$decodedString = Base65536::decode($encodedString); // Output: hello world 
 ```
 
 ## Credits
