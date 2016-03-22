@@ -1,0 +1,24 @@
+{
+    "name": "hevertonfreitas/base65536",
+    "description": "Implementartion of the base65536 library in PHP, as described by ferno/base65536",
+    "keywords": ["base65536", "unicode"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Heverton Coneglian de Freitas",
+            "email": "hevertonfreitas1@yahoo.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hevertonfreitas\\Base65536\\": "src/"
+        }
+    }
+}
